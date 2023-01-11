@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Yeon+Sung&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    /* border: 1px solid red; */
+}
+
+nav {
+    background-color: #2D2E2E;
+    padding: 20px 15px;
+}
+
+.navbar ul{
+    display: flex;
+    gap: 25px;
+}
+
+.navbar img {
+    width: 20px;
+    height: 20px;
+  }
+
+.inverted {
+    filter: invert(100%)
+}
+
+li {
+    display: flex;
+    list-style: none;
+}
+
+a {
+    margin-top: 5px;
+    margin-left: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+a:hover {
+    color: #BCABAE;
+}
+
+.container {
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    margin-bottom: 30px;
+}
+
+.main_block {
+    background-color: #2D2E2E;
+    height: 430px;
+    width: 350px;
+    text-align: center;
+    padding: 25px;
+    color: white;
+    font-weight: lighter;
+    border-radius: 25px;
+}
+
+#linkedin_logo {
+    height: 35px;
+}
+
+#instagram_logo {
+    height: 35px;  
+}
+
+#snapchat_logo {
+    height: 35px;  
+}
+
+#whatsapp_logo {
+    height: 35px;  
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 15px;
+    font-size: 24px;
+    padding: 8px 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+
+.main_block button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}

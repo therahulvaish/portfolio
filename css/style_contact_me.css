@@ -4,6 +4,9 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
+ @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Yeon+Sung&display=swap');
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -8321,6 +8324,7 @@ textarea.form-control {
 
   nav {
     background-color: #2D2E2E;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .navbar ul{
@@ -8344,7 +8348,7 @@ li {
     list-style: none;
 }
 
-a {
+.navbar a {
     margin-top: 2px;
     margin-left: 5px;
     color: white;
