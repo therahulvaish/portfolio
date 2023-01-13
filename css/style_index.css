@@ -309,10 +309,11 @@ a:hover {
 
 @media (max-width: 480px) {
     .skills_container {
-        width: 430px;
+        width: 375px;
+        height: 50vh;
         flex-wrap: wrap;
         justify-content:center;
         margin-top: 30px;
-        margin-bottom: 40vh;
+        /* margin-bottom: 40vh; */
     }
 }
